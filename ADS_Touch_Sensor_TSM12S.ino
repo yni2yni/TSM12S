@@ -34,8 +34,8 @@
 #define Force_en	  0x41 //Lock Mask
 
 // =============== TSM12S I2C Chip ID ================================================
-#define TSM12S_SLAVE_GND  0x68 //7bit address: 8bit address 0xD0<<1 //Chip_ID Pin = GND
-#define TSM12S_SLAVE_VDD  0x78 //7bit address: 8bit address 0xF0<<1 //Chip_ID Pin = VDD
+#define TSM12S_SLAVE_GND  0x68 //7bit address: 8bit address 0xD0>>1 //Chip_ID Pin = GND
+#define TSM12S_SLAVE_VDD  0x78 //7bit address: 8bit address 0xF0>>1 //Chip_ID Pin = VDD
 
 void  Init_TSM12S(void); //Initialize TSM12S (24QFN)
 
